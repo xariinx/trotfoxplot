@@ -1,0 +1,69 @@
+/* Mobile styles */
+.body {
+    font-family: Times-New-Roman; 
+}
+
+.h1 {
+    font-family: Sans-serif; 
+ }
+
+.img {
+    max-width: 100px
+    padding: 1.5rem;
+}
+
+.Sewage-robbery-heist {
+    float: left;
+}
+
+.img {
+    max-width: 10px
+    padding: 1.5rem;
+}
+
+.motorcycle-fox {
+    float: right;
+}  
+
+
+/* Desktop-only styles */ 
+@media (min-width: 40rem) { 
+} 
+background: lightpink; 
+colour: black;
+
+.hovering: hover {
+    font-sizes: 4rem;
+    Colour: lightblue;
+}
+.back-to-top-button{
+    position: fixed;
+    bottom: 0; 
+    right: 0;
+    padding: 1rem; 
+    background: yellow;
+}
+
+
+
+
+.section--page {
+    min-height: 55vh;
+    padding: 2rem 1rem 1rem;
+}
+.section--page:nth-of-type(odd) {
+    background: #d5d5d5;
+}
+.nav {
+    padding: 0;
+}
+.nav__item {
+    list-style:none;
+    display: inline-block;
+}
+.nav__link {
+    padding: 1rem;   
+}
+.nav__link:hover {
+    background: purple;
+    color: white;
